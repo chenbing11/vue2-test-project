@@ -115,20 +115,20 @@ module.exports = {
 		open: true, //配置自动启动浏览器  http://172.11.11.22:8888/rest/XX/
 		hotOnly: true, // 热更新
 		// proxy: 'http://localhost:8000'   // 配置跨域处理,只有一个代理
-		proxy: { //配置自动启动浏览器
-			// "/XX/*": {
-			// 	target: "http://172.11.11.11:7071",
-			// 	changeOrigin: true,
-			// 	// ws: true,//websocket支持
-			// 	secure: false
-			// },
-			// "/XX2/*": {
-			// 	target: "http://172.12.12.12:2018",
-			// 	changeOrigin: true,
-			// 	//ws: true,//websocket支持
-			// 	secure: false
-			// },
-		}
+		// proxy: { //配置自动启动浏览器
+		// 	"/XX/*": {
+		// 		target: "http://172.11.11.11:7071",
+		// 		changeOrigin: true,
+		// 		// ws: true,//websocket支持
+		// 		secure: false
+		// 	},
+		// 	"/XX2/*": {
+		// 		target: "http://172.12.12.12:2018",
+		// 		changeOrigin: true,
+		// 		//ws: true,//websocket支持
+		// 		secure: false
+		// 	},
+		// }
 	},
 
 	// 第三方插件配置 https://www.npmjs.com/package/vue-cli-plugin-style-resources-loader
